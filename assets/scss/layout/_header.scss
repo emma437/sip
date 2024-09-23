@@ -1,0 +1,40 @@
+.navbar {
+  h1 {
+    a {
+      background-image: url(/assets/images/image.png);
+      width: 136px;
+      height: 72px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block; /*將a連結轉成block*/
+      /*接下來三行把a連結中的文字拿掉*/
+      text-indent: 101%; /*縮排功能*/
+      overflow: hidden; /*超出區塊隱藏*/
+      white-space: nowrap; /*如何處置空白元素*/
+    }
+  }
+  .bg-custom {
+    background-color: #2e2828;
+  }
+  .navItem {
+    opacity: 1;
+  }
+  .navItem:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    h1 {
+      a {
+       
+        
+        width: 70px;
+        height: 36px;
+        // background-size: contain;
+        display: block; /*將a連結轉成block*/
+      }
+    }
+  }
+}
