@@ -9,7 +9,7 @@
 .mb-48{
   margin-bottom: 48px;
 }
-.mb-lg-16{
+.mb-16{
   margin-bottom: 218px;
 }
 .pic-icon{
@@ -53,6 +53,10 @@
   width: 2rem;
   height: 2rem;
 }
+
+.mb-16{
+  margin-bottom: 48px;
+}
 }
 
 @media (max-width: 768px){
@@ -63,7 +67,9 @@
     width: 1rem;
     height: 1rem;
   }
-
+  .mb-16{
+    margin-bottom: 24px;
+  }
   // .input1{
   //   width: 223px;
    
