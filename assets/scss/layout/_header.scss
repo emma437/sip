@@ -13,7 +13,9 @@
       white-space: nowrap; /*如何處置空白元素*/
     }
   }
-  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='#ECDEC3'%3E%3Cpath stroke='#ECDEC3' d='M3 6h24M3 12h24M3 18h24'/%3E%3C/svg%3E");
+  }
 
   .navItem {
     opacity: 1;
