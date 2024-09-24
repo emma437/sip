@@ -443,17 +443,19 @@ $spacers: (
   1: $spacer * 0.25,
   2: $spacer * 0.5,
   3: $spacer * 0.75,
-  4: $spacer,
+  4: $spacer * 1,
   5: $spacer * 1.25,
   6: $spacer * 1.5,
-  7: $spacer * 2,
-  8: $spacer * 2.25,
-  9: $spacer * 2.5,
-  10: $spacer * 3,
-  11: $spacer * 3.75,
-  12: $spacer * 4,
-  13: $spacer * 5,
-  14: $spacer * 6,
+  7: $spacer * 1.75,
+  8: $spacer * 2,
+  9: $spacer * 2.25,
+  10: $spacer * 2.5,
+  11: $spacer * 4,
+  12: $spacer * 5,
+  13: $spacer * 6,
+  14: $spacer * 7.5,
+  15: $spacer * 3,
+  
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -1274,8 +1276,8 @@ $navbar-light-active-color:         rgba(var(--#{$prefix}emphasis-color-rgb), 1)
 $navbar-light-disabled-color:       rgba(var(--#{$prefix}emphasis-color-rgb), .3) !default;
 $navbar-light-icon-color:           rgba($body-color, .75) !default;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
-// $navbar-light-toggler-border-color: rgba(var(--#{$prefix}emphasis-color-rgb), .15) !default;
-$navbar-light-toggler-border-color: #ECDEC3 !default;
+$navbar-light-toggler-border-color: rgba(var(--#{$prefix}emphasis-color-rgb), .15) !default;
+// $navbar-light-toggler-border-color: #ECDEC3 !default;
 $navbar-light-brand-color:          $navbar-light-active-color !default;
 $navbar-light-brand-hover-color:    $navbar-light-active-color !default;
 // scss-docs-end navbar-variables
